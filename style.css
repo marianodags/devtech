@@ -1,0 +1,587 @@
+body{
+  background-color: #060A0B;
+}
+
+button{
+  font_font-family: monospace;
+  font-size: 50px
+}
+
+img{
+
+  position: absolute;
+  width: 272px;
+  height: 72px;
+  left: 570px;
+  top: 119px;
+}
+
+h1{
+  position: absolute;
+width: 355px;
+height: 27px;
+left: 540px;
+top: 213px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+h3{
+      position: absolute;
+width: 555px;
+height: 27px;
+left: 440px;
+top: 213px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+
+.student_button{
+  /* STUDENT */
+
+
+  position: absolute;
+  width: 119px;
+  height: 132px;
+  left: 447px;
+  top: 311px;
+
+  background: #393A3A;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.letter_s{
+  /* S */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 85px;
+line-height: 106px;
+
+color: #FFFFFF;
+}
+.student_portal{
+  position: absolute;
+  width: 110px;
+  height: 21px;
+  left: 450px;
+  top: 454px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+color: white;
+}
+
+
+.admin_button{
+  /* ADMIN PORTAL BOX */
+
+
+position: absolute;
+width: 119px;
+height: 132px;
+left: 641px;
+top: 311px;
+
+background: #393A3A;
+border-radius: 10px;
+border-color: white;
+}
+
+.letter_a{
+  /* A */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 85px;
+line-height: 106px;
+
+color: #FFFFFF;
+}
+
+.admin_portal{
+
+position: absolute;
+width: 110px;
+height: 21px;
+left: 650px;
+top: 454px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+}
+
+.office_button{
+  position: absolute;
+width: 119px;
+height: 132px;
+left: 835px;
+top: 311px;
+
+background: #393A3A;
+border-radius: 10px;
+border-color: white;
+}
+
+.letter_o{
+  /* O */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 85px;
+line-height: 106px;
+
+color: #FFFFFF;
+}
+
+.office_portal{
+  position: absolute;
+width: 110px;
+height: 21px;
+left: 845px;
+top: 454px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+}
+
+.img-office{
+        position:absolute;
+        left:540px;
+        top:50px;
+    }
+
+footer h1{
+  /* CREATED BY: DevTech inc. */
+
+
+position: absolute;
+width: 165px;
+height: 15px;
+left: 620px;
+top: 645px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+.container .register-text{
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+
+
+
+
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: grey;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+input{
+  color:white;
+}
+p{
+   color:white;
+}
+
+
+
+
+/* STUDENT HOME PAGE */
+
+.profile_button{
+  position: absolute;
+  width: 140px;
+  height: 51px;
+  left: 410px;
+  top: 400px;
+
+background: #393A3A;
+border-radius: 10px;
+border-color: white;
+}
+
+.profile-text{
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: 8px;
+  top: 8px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+
+
+.suggestion_button{
+
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 620px;
+  top: 400px;
+
+  background: #393A3A;
+  border-radius: 10px;
+  border-color: white;
+}
+
+
+.suggestion-text{
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: 8px;
+  top: 8px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+
+}
+
+.logout_button{
+
+  position: absolute;
+  width: 140px;
+  height: 51px;
+  left: 890px;
+  top: 400px;
+
+  background: #393A3A;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.logout-text{
+
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: 8px;
+  top: 8px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+
+/*PROFILE PAGE*/
+
+
+.card{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 450px;
+  top: 256px;
+
+  background: #393A3A;
+  border-radius: 10px;
+  border-color: white;
+}
+.profile-img{
+  position: absolute;
+  width: 272px;
+  height: 72px;
+  left: 570px;
+  top: 119px;
+}
+
+
+.home_button{
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 210px;
+  top: 250px;
+
+  background: #393A3A;
+  border-radius: 10px;
+  border-color: white;
+}
+.home-text{
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: -12px;
+  top: 2px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+
+  td{
+   
+    color: white;
+  }
+  #r{
+      text-align: right;
+  }
+  #l{
+      text-align: left;
+  }
+
+
+/* SUGGESTION BOX*/
+  h2{
+    color: white;
+  }
+  textarea{
+    width: 100%;
+    border:1px;
+    border-radius:05px;
+
+  }
+  .num{
+    width: 40%;
+    height: 5%;
+    }
+
+  
+  .message-title{
+      border-color:white;
+  }
+  
+  .back-text{
+      font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 31px;
+  }
+  .historymessage-text{
+      font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 31px;
+  }
+  .submit-text{
+      top:10px;
+      font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 31px;
+        color:white;
+  }
+  
+  /*MESSAGE HISTORY*/
+
+
+    #blogs{
+
+      background-color: #0f1424;
+      border: 5px solid #ddd;
+      padding: 50px;
+      border-radius: 8px;
+
+    }
+
+  /*student neon*/
+.neon {
+  color: #fff;
+  text-shadow:
+
+    0 0 8px #fff,
+
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    
+
+}
+.neon2 {
+  color: #fff;
+  text-shadow:
+
+    0 0 10px #fff,
+
+    0 0 40px #27e,
+    0 0 80px #27e,
+    0 0 90px #27e,
+    0 0 100px #27e,
+    0 0 150px #27e;
+    
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 85px;
+line-height: 106px;
+
+
+}
+
+/*ADMIN PORTAL*/
+
+  .admin-table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #d96459;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+
+  }
+
+  #admin-container{
+    position: absolute;
+    background: #393A3A;
+    border-radius: 10px;
+
+  }
+  h4{
+    position: absolute;
+    width: 355px;
+    height: 27px;
+    left: 540px;
+    top: -50px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+
+color: #FFFFFF;
+  }
